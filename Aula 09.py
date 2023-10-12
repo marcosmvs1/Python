@@ -24,3 +24,6 @@ print(frase.upper())
 
 #função lower() é contrário do upper, transforma as letras maiusculas em minúsculas 
 print(frase.lower())
+
+#Função captalize() altera a somente PRIMEIRA letra do texto para maiuscula ex:
+print(frase.capitalize())
