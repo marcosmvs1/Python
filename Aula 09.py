@@ -47,5 +47,5 @@ dividido = frase.split()
 #função .join() junta as palavras de uma frase separando-as por qualquer caracter desejado, basta colocar o caracter desejado em entre aspas antes do comando .join() ex:
 print('-'.join(dividido))
 
-print(dividido.split())
+
 
