@@ -1,3 +1,3 @@
 import pyautogui
 
-pyautogui.PAUSE
+pyautogui.PAUSE = 2
