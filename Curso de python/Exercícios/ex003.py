@@ -7,4 +7,4 @@ mult = n1 * n2
 print('A soma de', n1, '+',n2, 'é = ', soma)
 print('A subtração de', n1, '-',n2, 'é = ', sub)
 print('A divição de', n1, '/',n2, 'é = ', div)
-print('A multiplicação de', n1, '*',n2, 'é = ', mult)
+print('A multiplicação de', n1, '*',n2, 'é = ', mult) 
