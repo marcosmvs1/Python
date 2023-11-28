@@ -6,5 +6,3 @@ print('Seu primeiro nome tem {} letras' .format(nome.find(' ')))
 separa = nome.split()
 print(f'Seu primeiro nome é {separa[0]} e tem {len(separa[0])} letras')
 
-
-
