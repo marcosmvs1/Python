@@ -1,7 +1,6 @@
 vel = float(input('Qual velocidade do carro: '))
-cal = (vel - 80) * 7
 
-if cal > 1:
-    print(f'Você foi multado! O valor da multa é de R${cal:1F}')
+if vel > 80:
+    print(f'Você foi multado! O valor da multa é de R${(vel - 80) * 7}')
 else:
     print('Você não foi multado: ') 

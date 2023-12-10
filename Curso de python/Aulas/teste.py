@@ -1,3 +1,2 @@
-import pyautogui
-
-pyautogui.PAUSE = 2
+s = "prova de python"
+print(len(s))
