@@ -1,4 +1,3 @@
-import 
 n = input('digite algo: ')
 t =  type(n)
 s = n.isspace()
