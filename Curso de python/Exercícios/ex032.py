@@ -1,2 +1,3 @@
-ano = int(input('digite um ano: '))
-if ano % == 0:
+ano = float(input('digite um ano: '))
+rest = ano % 400
+print(rest) 
