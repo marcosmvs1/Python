@@ -10,7 +10,8 @@ for p in range(1, 6 ):
             maior = peso
         if peso < menor:
             menor = peso 
-print(maior, menor)
+print(f'''O maior peso foi: {maior} 
+O menor peso foi: {menor}''')
     
 
     
