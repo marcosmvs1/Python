@@ -13,7 +13,6 @@ while mais != 0:
         termo += razão
     print('Pausa')
     mais = int(input('Quantos termos você quer mostrar a mais: ')) 
-#FAZER DE NOVO ATE ENTENDER 
     
 
 print('FIM!!!')   
