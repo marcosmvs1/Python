@@ -1,37 +1,24 @@
-# Exercicio par ou impar 
-
-from random import randint
-
-v = 0
+print('=' * 30)
+print('{:^30}'.format('BANCO CEV'))
+print('=' * 30)
+valor = int(input('Qual valor você quer sacar: R$ '))
+total = valor 
+ced = 50 
+totced = 0
 while True:
-    print('-=' *20)
-    print('VAMOR JOGAR PAR OU ÍMPAR ')
-    print('-=' *20)
-    jogador = int(input('Digite um número: '))
-    comp = randint(1,10)
-    total = comp + jogador
-    tipo = ' '
-    while tipo not in 'PI':
-        tipo = str(input('Par ou impar ')).lower() .upper() [0]
-    print(f'Você jogou {jogador} e o computador {comp}. Total de {total}')
-    print('DEU PAR' if total % 2 == 0  else 'DEU IMPAR') 
-    if tipo == 'P':
-        if total % 2 == 0:
-            print('Você venceu!!! ')
-            v = v + 1
-        else:
-            print('Você perdeu!!!!')
+    if total >= ced:
+        total -= ced
+        totced += 1
+    else: 
+        if totced > 0:
+            print(f'Total de {totced} cedulas de R${ced}')
+        if ced == 50:
+            ced = 20
+        elif ced == 20:
+            ced = 10
+        elif ced == 10:
+            ced = 1
+        totced = 0
+        if total == 0:
             break
-    elif tipo == 'I':
-        if total % 2 != 0:
-            print('Você venceu!!! ')
-            v = v + 1
-        else:
-            print('Você perdeu!!!')
-            break
-    print('Vamos jogar novamnte...')
-print(f'GAME OVER!!! Você venceu  {v} vezes')
         
-
-   
-
